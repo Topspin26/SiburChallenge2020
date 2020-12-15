@@ -1,5 +1,7 @@
 # SiburChallenge2020
 
+[Задача 2. Сопоставление названий](https://sibur.ai-community.com/competitions/4/tasks/12)
+
 ### Steps to reproduce solution:
 
 ```
