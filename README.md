@@ -19,7 +19,7 @@ result file: {dirname fullpath}/output/subm_final.csv
 ### Шаг 1. Кластеры
 Научимся собирать названия в кластеры на основании информации о позитивных парах из трейна `(name_1, name_2, is_duplicate=1)`.
 
-Для этого токенизируем названия `name -> tokens` и просто как мешок слов представляем. При этом выкидываем legal_tokens и geo.
+Для этого токенизируем названия `name -> tokens` и просто как мешок слов представляем. При этом выкидываем legal entities и geo.
 Итого получим граф:
 - вершины - токенизированные названия
 - ребра - связки `(name_1, name_2, is_duplicate=1)`
@@ -41,6 +41,13 @@ result file: {dirname fullpath}/output/subm_final.csv
     ("bridgestone"), ("bridgestone", "automotive"), ("bridgestone", "synthetic", "rubber")
 }
 ```
+
+Для фильтрации гео-токенов используем:
+- spacy модель en_core_web_lg;
+- пакеты geonamescache, pycountry;
+
+Для фильтрации legal entities используем wiki-страницу:
+- https://en.wikipedia.org/wiki/List_of_legal_entity_types_by_country
 
 
 ### Шаг 2. Подсчет фичей на трейне
