@@ -2,6 +2,11 @@
 
 [Задача 2. Сопоставление названий](https://sibur.ai-community.com/competitions/4/tasks/12)
 
+## Презентация
+
+[Sibur_Challenge_2020_Task_2.pdf](Sibur_Challenge_2020_Task_2.pdf)
+
+
 ### Для воспроизведения решения:
 
 ```
