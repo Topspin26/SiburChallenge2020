@@ -6,6 +6,8 @@
 
 [Sibur_Challenge_2020_Task_2.pdf](Sibur_Challenge_2020_Task_2.pdf)
 
+Видео: https://www.youtube.com/watch?t=46m16s&v=I35G535OeS8
+
 
 ### Для воспроизведения решения:
 
